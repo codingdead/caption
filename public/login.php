@@ -37,6 +37,7 @@ if(isset($_POST['submit'])
 require_once('../app/classes/form.php');
 
 include('../app/includes/header.php');
-
+include('../app/includes/content.php');
+include('../app/includes/message_input_login.php');
 include('../app/includes/footer_login.php');
 
